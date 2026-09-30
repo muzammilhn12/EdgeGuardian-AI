@@ -1,0 +1,3 @@
+# Demo mode has no third-party Python dependency.
+# For real ESP32 serial input, add: pyserial
+# For camera processing, add: opencv-python

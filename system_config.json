@@ -1,0 +1,21 @@
+{
+  "serial_configuration": {
+    "port": "COM3",
+    "baud_rate": 115200,
+    "timeout_seconds": 1.0
+  },
+  "fusion_thresholds": {
+    "normal_acceleration_max_g": 1.2,
+    "risk_acceleration_min_g": 1.3,
+    "accident_acceleration_min_g": 2.5,
+    "emergency_acceleration_min_g": 4.0,
+    "tilt_threshold_degrees": 35.0,
+    "distraction_time_limit_seconds": 2.0
+  },
+  "model_configuration": {
+    "model_path": "models/driver_state_quant.onnx",
+    "execution_provider": "QNNExecutionProvider",
+    "input_width": 224,
+    "input_height": 224
+  }
+}
